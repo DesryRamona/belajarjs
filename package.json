@@ -1,24 +1,17 @@
 {
-  "name": "belajarjs",
+  "name": "uts",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Widwad/belajar.js/issues"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Widwad/belajar.js/issues"
-  },
-  "homepage": "https://github.com/Widwad/belajar.js#readme",
+  "description": "",
   "dependencies": {
+    "body-parser": "^2.2.0",
     "express": "^5.1.0"
   }
 }

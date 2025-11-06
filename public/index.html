@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perancangan Web Pertemuan 7</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Login Node.js Pra-UTS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
-    <!-- Halaman Login -->
-     <div class="container">
-        <div class="form-box">
-            <h1>Login</h1>
-            <form action="/login" method="POST" id="loginForm">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-                <br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <br>
-                <button type="submit">Login</button>
-            </form>
-        </div>
-     </div>
+    <div class="container">
+        <h1>Login Admin</h1>
+        <p>Implementasi: Modul System, Callback, & Promise</p>
+        
+        <label for="username"><b>Username (ID)</b></label>
+        <input type="text" id="username" value="admin">
 
-    <script src="app.js"></script>
+        <label for="password"><b>Password</b></label>
+        <input type="password" id="password" value="12345">
+        
+        <button id="loginBtn">PROSES ASINKRON VIA SERVER</button>
+        
+        <div id="message">Status: Menunggu input...</div>
+        
+        <h3>Hasil Laporan Server</h3>
+        <pre id="result">Hasil akan muncul di sini...</pre>
+    </div>
+
+    <script src="client.js"></script> 
 </body>
 </html>
